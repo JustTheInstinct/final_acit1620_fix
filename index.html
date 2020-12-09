@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Gallery</title>
+</head>
+
+<body>
+    <header><h1>Welcome to our gallery</h1></header>
+    <h2>Hover on any thumbnail to see it larger</h2>
+    <nav id='nav'>
+        <div id='thumb-bar'>
+            <img id='red' src="images/pic1.jpg" alt="Red Symbol" width="80px">
+            <img id='blue' src="images/pic2.jpg" alt="Blue Symbol" width="80px">
+            <img id='green' src="images/pic3.jpg" alt="Green Symbol" width="80px">
+            <img id='black' src="images/pic4.jpg" alt="Black Symbol" width="80px">
+            <img id='white' src="images/pic5.jpg" alt="White Symbol" width="80px">
+        </div>
+    </nav>
+    <main id='main'>
+        <img id='preview' src="images/pic1.jpg" alt="Preview" width="320px">
+        <p>
+            What effect do you want to preview?
+        </p>
+        <input id='apply' type="text" placeholder="Enter effect (Eg. pic1)...">
+        <input id='submit' type="button" value="Submit">
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
